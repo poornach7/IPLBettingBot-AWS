@@ -25,8 +25,8 @@ export class IplBotAwsStack extends cdk.Stack {
       runtime: Runtime.PYTHON_3_8,
       retryAttempts: 0,
       environment: {
-        TG_TOKEN: '6036828699:AAEgkCzUSM6-0Y2l8ONvCX62n_ChSypliuo',
-        USER_ID: '-1001907974829'
+        TG_TOKEN: <>,
+        USER_ID: <>
       }
     });
 
